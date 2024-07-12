@@ -37,7 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation ("com.github.amitbarel:customButtonModule:1.0.0")
+//    implementation ("com.github.amitbarel:customButtonModule:1.0.3")
     implementation(project(":customButtons"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
