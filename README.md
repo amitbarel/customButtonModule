@@ -31,20 +31,14 @@ style across your application.
     - Copy the `customButtons` directory to the `libraries` directory in your project (or any
       preferred location).
 
-2. **Include the module in your settings.gradle file:**
-
-   ```gradle
-   include ':app', ':customButtons'
-   ```
-
-3. **Add the module as a dependency in your app's build.gradle file:**
+2. **Add the module as a dependency in your app's build.gradle file:**
     ```
     dependencies {
-        implementation(project(":customButtons"))
+        implementation ("com.github.amitbarel:customButtonModule:1.0.5")
     }
    ```
 
-4. **Ensure Maven is configured in your settings.gradle file:**
+3. **Ensure Maven is configured in your settings.gradle file:**
     ```
     allprojects {
         repositories {
