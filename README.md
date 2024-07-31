@@ -14,6 +14,8 @@ style across your application.
 - Customizable outline color and stroke width
 - Easy integration with XML layout files
 - Programmatic customization at runtime
+  
+![l4H06RH](https://github.com/user-attachments/assets/fcd1d0d8-bdd1-441b-ae22-9967d5cad2d5)
 
 ## Getting Started
 
@@ -76,6 +78,7 @@ Define your custom button in an XML layout file (activity_main.xml for example):
         android:layout_centerInParent="true"/>
 </RelativeLayout>
 ```
+![n7scReh](https://github.com/user-attachments/assets/309ccaed-9c0e-442a-a229-b280b4b25aee)
 
 #### Or make the changes programmatically
 
@@ -91,6 +94,7 @@ CustomButton customButton = findViewById(R.id.custom_button);
         customButton.setOutlineColor(getResources().getColor(android.R.color.holo_blue_dark));
         customButton.setStrokeWidth(10f);
 ```
+![T7mWzEU](https://github.com/user-attachments/assets/0bec2b27-d14e-4e49-998b-5ff3530ef2cd)
 
 ## Customization Options
 
